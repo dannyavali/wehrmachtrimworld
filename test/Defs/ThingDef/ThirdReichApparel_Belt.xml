@@ -1,0 +1,382 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+           	<!-- ==================================== Harness Assault =====================================-->
+
+	<ThingDef ParentName="ApparelMakeableBase">
+    <defName>Apparel_3RHarnessA</defName>
+    <label>Assault harness (3R)</label>
+    <description>Carries machine gun ammo, usually used by Assault Units.</description>
+
+    <recipeMaker>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+			<recipeUsers>
+				<li>ElectricTailoringBench</li>
+				<li>HandTailoringBench</li>
+			</recipeUsers>
+    </recipeMaker>
+	
+    <graphicData>
+      <texPath>Things/Apparel/Display/HarnessAssault</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+	
+    <costStuffCount>40</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+	
+
+    <thingCategories>
+      <!--<li>Apparel</li>-->
+      <li>3Reich_Clothing</li>
+    </thingCategories>
+
+	
+    <statBases>
+	      <Mass>0.20</Mass>
+	  <MaxHitPoints>220</MaxHitPoints>
+	  <WorkToMake>9000</WorkToMake>
+      <ArmorRating_Blunt>0.05</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.06</ArmorRating_Sharp>	 
+      <Insulation_Cold>-1</Insulation_Cold>
+    </statBases>
+	
+	
+   <equippedStatOffsets>
+      <MoveSpeed>-0.01</MoveSpeed>
+	  <AimingDelayFactor>-0.09</AimingDelayFactor>
+	  <MedicalTendQuality>0.05</MedicalTendQuality>	  
+   </equippedStatOffsets>
+   
+
+		
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Shoulders</li>
+				<li>Waist</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Apparel/Belt/(3R)HarnessAssault</wornGraphicPath>
+			
+			<layers>
+				<li>Webbing</li>
+			</layers>
+			
+	  <tags>
+		<li>3Reich_Harness</li>
+      </tags>
+	  <useWornGraphicMask>true</useWornGraphicMask>	  
+      <defaultOutfitTags>
+        <li>Soldier</li>
+		<li>Worker</li>
+      </defaultOutfitTags>
+    </apparel>
+	
+  </ThingDef>   
+  
+      	<!-- ==================================== Harness Riffleman =====================================-->
+
+	<ThingDef ParentName="ApparelMakeableBase">
+    <defName>Apparel_3RHarnessRif</defName>
+    <label>Rifleman Harness (3R)</label>
+    <description>Carries rifle ammo, used by mostly Snipers and Riflemen.</description>
+
+    <recipeMaker>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+			<recipeUsers>
+				<li>ElectricTailoringBench</li>
+				<li>HandTailoringBench</li>
+			</recipeUsers>
+    </recipeMaker>
+	
+    <graphicData>
+      <texPath>Things/Apparel/Display/HarnessRiffleman</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+	
+    <costStuffCount>30</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+	
+
+    <thingCategories>
+      <!--<li>Apparel</li>-->
+      <li>3Reich_Clothing</li>
+    </thingCategories>
+
+	
+    <statBases>
+	      <Mass>0.20</Mass>
+	  <MaxHitPoints>220</MaxHitPoints>
+	  <WorkToMake>9000</WorkToMake>
+      <ArmorRating_Blunt>0.05</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.06</ArmorRating_Sharp>	 
+      <Insulation_Cold>-1</Insulation_Cold>
+    </statBases>
+	
+	
+   <equippedStatOffsets>
+      <MoveSpeed>-0.02</MoveSpeed>
+	  <AimingDelayFactor>-0.08</AimingDelayFactor>
+	  <MedicalTendQuality>0.05</MedicalTendQuality>	  
+   </equippedStatOffsets>
+   
+
+		
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Shoulders</li>
+				<li>Waist</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Apparel/Belt/(3R)HarnessRiffleman</wornGraphicPath>
+			
+			<layers>
+				<li>Webbing</li>
+			</layers>
+			
+	  <tags>
+		<li>3Reich_Harness</li>
+      </tags>
+	  <useWornGraphicMask>true</useWornGraphicMask>	  
+      <defaultOutfitTags>
+        <li>Soldier</li>
+		<li>Worker</li>
+      </defaultOutfitTags>
+    </apparel>
+	
+  </ThingDef>   
+  
+        	<!-- ==================================== Officer Belt =====================================-->
+
+	<ThingDef ParentName="ApparelMakeableBase">
+    <defName>Apparel_3ROfficerbelt</defName>
+    <label>Officer Belt (3R)</label>
+    <description>A belt with a pistol holster used by officers from all Third Reich military branches.</description>
+
+    <recipeMaker>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+			<recipeUsers>
+				<li>ElectricTailoringBench</li>
+				<li>HandTailoringBench</li>
+			</recipeUsers>
+    </recipeMaker>
+	
+    <graphicData>
+      <texPath>Things/Apparel/Display/OfficerBelt</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+	
+    <costStuffCount>15</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+	
+
+    <thingCategories>
+      <!--<li>Apparel</li>-->
+      <li>3Reich_Clothing</li>
+    </thingCategories>
+
+	
+    <statBases>
+	      <Mass>0.20</Mass>
+	  <MaxHitPoints>220</MaxHitPoints>
+	  <WorkToMake>9000</WorkToMake>
+      <ArmorRating_Blunt>0.05</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.06</ArmorRating_Sharp>	 
+      <Insulation_Cold>-1</Insulation_Cold>
+    </statBases>
+	
+	
+   <equippedStatOffsets>
+	  <AimingDelayFactor>-0.07</AimingDelayFactor>
+	  <MedicalTendQuality>0.05</MedicalTendQuality>	  
+   </equippedStatOffsets>
+   
+
+		
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Shoulders</li>
+				<li>Waist</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Apparel/Belt/(3R)OfficerBelt</wornGraphicPath>
+			
+			<layers>
+				<li>Webbing</li>
+			</layers>
+			
+	  <tags>
+		<li>3Reich_OfficerBelt</li>
+      </tags>
+	  <useWornGraphicMask>true</useWornGraphicMask>	  
+      <defaultOutfitTags>
+        <li>Soldier</li>
+		<li>Worker</li>
+      </defaultOutfitTags>
+    </apparel>
+	
+  </ThingDef>   
+  
+          	<!-- ==================================== Feldgendararmerie Gorget =====================================-->
+
+	<ThingDef ParentName="ApparelMakeableBase">
+    <defName>Apparel_3RFeldgendararmerieGorget</defName>
+    <label> Feldgendararmerie Gorget (3R)</label>
+    <description>A belt with a pistol holster and a Gorget belonging to the Feldgendararmerie, Reich Military police, many branches MP's wear these.</description>
+
+    <recipeMaker>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+			<recipeUsers>
+				<li>ElectricTailoringBench</li>
+				<li>HandTailoringBench</li>
+			</recipeUsers>
+    </recipeMaker>
+	
+    <graphicData>
+      <texPath>Things/Apparel/Display/FeldgendarmerieGorget</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+	
+    <costStuffCount>15</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+	
+
+    <thingCategories>
+      <!--<li>Apparel</li>-->
+      <li>3Reich_Clothing</li>
+    </thingCategories>
+
+	
+    <statBases>
+	      <Mass>0.20</Mass>
+	  <MaxHitPoints>220</MaxHitPoints>
+	  <WorkToMake>9000</WorkToMake>
+      <ArmorRating_Blunt>0.05</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.06</ArmorRating_Sharp>	 
+      <Insulation_Cold>-1</Insulation_Cold>
+    </statBases>
+	
+	
+   <equippedStatOffsets>
+	  <AimingDelayFactor>-0.07</AimingDelayFactor>
+	  <MedicalTendQuality>0.05</MedicalTendQuality>	  
+   </equippedStatOffsets>
+   
+
+		
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Shoulders</li>
+				<li>Waist</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Apparel/Belt/(3R)FeldgendarmerieGorget</wornGraphicPath>
+			
+			<layers>
+				<li>Webbing</li>
+			</layers>
+			
+	  <tags>
+		<li>3Reich_FeldgendararmerieGorget</li>
+      </tags>
+	  <useWornGraphicMask>true</useWornGraphicMask>	  
+      <defaultOutfitTags>
+        <li>Soldier</li>
+		<li>Worker</li>
+      </defaultOutfitTags>
+    </apparel>
+	
+  </ThingDef>   
+  
+         	<!-- ==================================== Fallschirmjager Harness =====================================-->
+
+	<ThingDef ParentName="ApparelMakeableBase">
+    <defName>Apparel_3RHarnessFal</defName>
+    <label>Fallschirmjager Harness (3R)</label>
+    <description>A Bandoiler used by Fallschirmjagers for storing ammo and being quick on their feet.</description>
+
+    <recipeMaker>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+			<recipeUsers>
+				<li>ElectricTailoringBench</li>
+				<li>HandTailoringBench</li>
+			</recipeUsers>
+    </recipeMaker>
+	
+    <graphicData>
+      <texPath>Things/Apparel/Display/HarnessFallschirmjager</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+	
+    <costStuffCount>15</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+	
+
+    <thingCategories>
+      <!--<li>Apparel</li>-->
+      <li>3Reich_Clothing</li>
+    </thingCategories>
+
+	
+    <statBases>
+	      <Mass>0.20</Mass>
+	  <MaxHitPoints>220</MaxHitPoints>
+	  <WorkToMake>9000</WorkToMake>
+      <ArmorRating_Blunt>0.05</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.06</ArmorRating_Sharp>	 
+      <Insulation_Cold>-1</Insulation_Cold>
+    </statBases>
+	
+	
+   <equippedStatOffsets>
+	  <AimingDelayFactor>-0.07</AimingDelayFactor>
+	  <MedicalTendQuality>0.05</MedicalTendQuality>	  
+   </equippedStatOffsets>
+   
+
+		
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Shoulders</li>
+				<li>Waist</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Apparel/Belt/(3R)HarnessFallschirmjager</wornGraphicPath>
+			
+			<layers>
+				<li>Webbing</li>
+			</layers>
+			
+	  <tags>
+		<li>3Reich_FallschirmjagerHarness</li>
+      </tags>
+	  <useWornGraphicMask>true</useWornGraphicMask>	  
+      <defaultOutfitTags>
+        <li>Soldier</li>
+		<li>Worker</li>
+      </defaultOutfitTags>
+    </apparel>	
+</ThingDef>   
+
+
+  </Defs>

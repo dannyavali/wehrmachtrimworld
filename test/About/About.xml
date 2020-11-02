@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ModMetaData>
+
+	<name>Test</name>
+	<author>Dannyavali</author>
+	<supportedVersions><li>1.2</li></supportedVersions>
+	<packageId>Dannyavali.test</packageId>
+	<description>[WIP]</description>
+</ModMetaData>

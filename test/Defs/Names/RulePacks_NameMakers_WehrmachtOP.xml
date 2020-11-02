@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <RulePackDef>
+    <defName>WWII_WehrmachtOutposts</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>name->[WWII_WehrmachtOPNames]</li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>WWII_WehrmachtOPNames</keyword>
+          <path>NameBanks/Names_WWIIWehrmachtOPs</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+
+</Defs>
+
+
+
+
+
+
+

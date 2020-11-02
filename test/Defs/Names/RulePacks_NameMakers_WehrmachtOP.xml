@@ -2,7 +2,7 @@
 <Defs>
 
   <RulePackDef>
-    <defName>WWII_WehrmachtOutposts</defName>
+    <defName>WWII_WehrmachtBase</defName>
     <rulePack>
       <rulesStrings>
         <li>name->[WWII_WehrmachtOPNames]</li>
